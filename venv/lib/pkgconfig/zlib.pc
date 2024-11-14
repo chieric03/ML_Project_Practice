@@ -1,0 +1,13 @@
+prefix=/Users/ericchi/Projects/ML_Practice/venv
+exec_prefix=/Users/ericchi/Projects/ML_Practice/venv
+libdir=/Users/ericchi/Projects/ML_Practice/venv/lib
+sharedlibdir=/Users/ericchi/Projects/ML_Practice/venv/lib
+includedir=/Users/ericchi/Projects/ML_Practice/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
